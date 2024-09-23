@@ -331,3 +331,7 @@ span {
 #menu{
   display: none;
 }
+.line{
+  color: #00cccc;
+  opacity: 0.3;
+}

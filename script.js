@@ -4,6 +4,7 @@ const menuList = document.getElementById('nav')
 
 menu.addEventListener('click', ()=>{
     menuList.style.display = "flex"
+    menu.style.display = "none"
 });
 // close.addEventListener("click", () => {
 //     menuList.style.display = "none"

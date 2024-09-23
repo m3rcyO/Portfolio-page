@@ -9,20 +9,28 @@
     flex-direction: column;
   }
   #home {
-    padding: 10px 20px;
+    padding: 10px 0px;
   }
   .maintext {
-    flex: 1;
+    padding: 0;
+    text-align: left;
   }
   .maintext h3 {
     font-size: 40px;
+    position: relative;
+    top: 35px;
+    
   }
   .maintext h1 {
     font-size: 25px;
+    /* margin-bottom: 50px; */
+    position: relative;
+    top: 20px;
   }
   .maintext p {
     font-size: 20px;
     line-height: 1.8;
+    
   }
   .btnbox > btn2 {
     margin: 10px 10px;
@@ -32,22 +40,32 @@
     font-size: 14px;
   }
   .main-img {
-    flex: 1;
+    margin-top: 50px;
     width: 70%;
+    border-radius: 50%;
   }
+.main-img img {
+  border-radius: 50%;
+}
+
+
 
 #menu{
   display: block;
+  position: relative;
+  top: 40px;
+
   cursor: pointer;
   margin-left: 20px;
+  font-size: 20px;
 }
 #nav{
-  position: relative;
+  /* position: relative;
   top: 0;
-  left: 0;
+  left: 0; */
   background-color: black;
-  height: 40vh;
-  width: 100%;
+  height: 20vh;
+  width: 30%;
   /* display: none; */
   flex-direction: column;
   /* justify-content: flex-start; */
@@ -56,7 +74,7 @@
 }
 .nav-bar{
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   position: relative;
 }
 #close{
@@ -64,11 +82,12 @@
   top: 30px;
   right: 20px;
   cursor: pointer;
+  font-size: 30px;
 }
 /* about section */
 #about{
   flex-direction: column;
-  padding: 50px 20px;
+  padding: 40px 10px;
 }
 .aboutimg {
     margin-right: 0; 
@@ -78,7 +97,7 @@
    .about-text {
     margin-left: 0;
     padding: 10px; 
-    text-align: center;
+    text-align: left;
 }
 .about-text h2{
 font-size: 35px;
@@ -121,7 +140,7 @@ font-size: 35px;
 
   .submit-button {
     font-size: 16px; 
-    padding: 18px 20px; 
+    padding: 20px 20px; 
   }
 }
 
