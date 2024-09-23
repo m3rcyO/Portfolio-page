@@ -26,12 +26,12 @@ header {
   width: 100%;
 }
 section {
-  scroll-margin-top: 60px;
+  scroll-margin-top: 100px;
 }
 .nav-bar {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   text-align: center;
   position: relative;
@@ -164,12 +164,7 @@ span {
 .btnbox {
   margin-top: 40px;
 }
-@media (max-width: 768px) {
-  .homecontent {
-    flex-direction: column;
-    text-align: center;
-  }
-}
+
 /* about section styling */
 
 #about {
@@ -332,4 +327,7 @@ span {
   margin: 20px;
   color: #00ffff;
   font-size: 18px;
+}
+#menu{
+  display: none;
 }

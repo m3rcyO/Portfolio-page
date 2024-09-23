@@ -1,3 +1,128 @@
-@media screen and ( max-width: 480px){
+/* Media query for phones */
+@media (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+  /* home section */
+  .homecontent {
+    display: flex;
+    flex-direction: column;
+  }
+  #home {
+    padding: 10px 20px;
+  }
+  .maintext {
+    flex: 1;
+  }
+  .maintext h3 {
+    font-size: 40px;
+  }
+  .maintext h1 {
+    font-size: 25px;
+  }
+  .maintext p {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+  .btnbox > btn2 {
+    margin: 10px 10px;
+  }
+  .btn2 {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .main-img {
+    flex: 1;
+    width: 70%;
+  }
 
+#menu{
+  display: block;
+  cursor: pointer;
+  margin-left: 20px;
 }
+#nav{
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: 40vh;
+  width: 100%;
+  /* display: none; */
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items: left; */
+  z-index: 1000;
+}
+.nav-bar{
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+#close{
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+}
+/* about section */
+#about{
+  flex-direction: column;
+  padding: 50px 20px;
+}
+.aboutimg {
+    margin-right: 0; 
+    margin-bottom: 20px; 
+    max-width: 70%; 
+  }
+   .about-text {
+    margin-left: 0;
+    padding: 10px; 
+    text-align: center;
+}
+.about-text h2{
+font-size: 35px;
+}
+.about-text p{
+  font-size: 20px;
+}
+.about-text button{
+  margin-bottom: 50px;
+}
+}
+@media (max-width: 360px){
+  #menu{
+    top: 20px;
+  }
+  .btnbox{
+    display: flex;
+  }
+  .aboutimg{
+    max-width: 50%;
+  }
+  .about-text p{
+    font-size: 16px;
+  }
+  .maintext p{
+    font-size: 16px;
+  }
+}
+@media (max-width: 850px) {
+  #contact {
+    max-width: 90%; 
+    padding: 30px;  
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px; 
+    padding: 10px 15px; 
+  }
+
+  .submit-button {
+    font-size: 16px; 
+    padding: 18px 20px; 
+  }
+}
+
+
